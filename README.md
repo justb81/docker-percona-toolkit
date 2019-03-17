@@ -3,7 +3,7 @@
 ## usage
 
 ```
-$ docker run --rm -v $(pwd):/tmp tuki0918/percona-toolkit \
+$ docker run --rm -v $(pwd):/tmp justb81/percona-toolkit \
   pt-query-digest /tmp/mysqld-slow.log > /tmp/output.txt
 ```
 
